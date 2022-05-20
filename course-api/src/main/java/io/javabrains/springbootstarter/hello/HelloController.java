@@ -8,7 +8,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello")  //this annotation takes an argument to map to a particular url when called  
 								// request mapping is only for get request , for other type of request we need to specify the request.
-	public String sayHi() {
+	public String sayHello() {
 		return "Hi";
 	}
 }
